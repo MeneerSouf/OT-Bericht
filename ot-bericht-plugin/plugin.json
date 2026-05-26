@@ -1,0 +1,41 @@
+{
+  "name": "OT Bericht Message",
+  "id": "ot-bericht-plugin",
+  "version": "1.7",
+  "startFile": "index.ts",
+
+  "supportedVersions": [
+    "OTv4.0.x",
+    "OTv4.1.x",
+    "OTv4.2.x"
+  ],
+
+  "enabled": true,
+  "priority": 2,
+  "events": [],
+
+  "npmDependencies": [
+    "axios"
+  ],
+
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+
+  "details": {
+    "author": "Souf",
+    "contributors": [],
+
+    "shortDescription": "Sollicitatie Bericht",
+
+    "longDescription": "Deze command stuurt automatisch het sollicitatie bericht.",
+
+    "imageUrl": "",
+    "projectUrl": "",
+
+    "tags": [
+      "ticket",
+      "sollicitatie",
+      "vragenlijst"
+    ]
+  }
+}
